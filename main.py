@@ -10,7 +10,7 @@ def calculate_and_print(a, b, operation_name):
         'divide': Calculator.divide
     }
 
-    # Unified error handling for decimal conversion
+    # Unified error handling for decimal conversions
     try:
         a_decimal, b_decimal = map(Decimal, [a, b])
         result = operation_mappings.get(operation_name) # Use get to handle unknown operations
