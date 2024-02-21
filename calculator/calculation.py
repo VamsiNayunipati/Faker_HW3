@@ -9,7 +9,7 @@
     module instead of floating-point numbers is crucial for 
     financial and scientific calculations that require high precision. 
     The __repr__ method provides a developer-friendly string representation 
-    of the object, useful for debugging and logging.
+    of the object, useful for debugging, logging.
 '''
 # Import the Decimal class for precise decimal arithmetic
 from decimal import Decimal
