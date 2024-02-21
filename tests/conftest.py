@@ -1,4 +1,4 @@
-# conftest.py
+# conftest
 import pytest
 from decimal import Decimal
 from faker import Faker
